@@ -1,0 +1,149 @@
+:root {
+    --jumbotron-padding-y: 3rem;
+  }
+
+
+
+/* STYLE FOR JUMBOTRON ABOUT US */
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+  }
+  
+ 
+/* STYLE FOR NAVBAR HEADER */
+
+.nav-icon{
+    background: #1b1b1b;
+    width: 3.8rem;
+    height:  3.8rem;
+    border-radius: 50%;
+    border: 0;
+    opacity: 0.7;
+    text-shadow: none;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-icon:hover{
+    background-color:  #000;
+    opacity: 1.0;
+    transition: all ease 0.3s;
+    color: #fff;
+}
+
+.icon-navbar-responsive {
+    color: black !important;
+}
+
+.homenav .navbar-toggler-icon {
+    background-color: white !important;
+    color: #000 !important;
+}
+
+.homenav {
+    width: 100% !important;
+    position: absolute !important;
+    z-index: 10;
+    background: rgba(0 ,0 , 0, 0.5 ) !important;
+    border-radius: 0px !important;
+}
+
+.homenav .navbar-toggler{
+    background-color: white !important;
+}
+
+
+/* STYLE FOR CAROUSEL SLIDER */
+
+.gambar-slider {
+    width: 100% !important;
+    height: 800px !important;
+    
+}
+
+.carousel-back {
+    background-color: black !important;
+}
+
+.carousel-item img{
+    opacity: 0.6;
+}
+
+.carousel-indicators li{
+    border-radius: 50%;
+    width: .8rem;
+    height:  .8rem;
+    background: transparent;
+    border: solid 2px  #1b1b1b;
+}
+
+/* STYLE FOR OUR SERVICE  */
+.title-content {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.images-content {
+    height: 310px;
+}
+
+/* STYLE FOR OUR CLIENT */
+.img-client {
+    /* width: 500px; */
+    height: 180px;
+}
+
+.item{
+    border: 1px solid #000;
+    background-color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* JOIN US */
+
+.join-us {
+    background-color: ;
+}
+
+/* MAPS STYLE */
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* FOOTER  */
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
